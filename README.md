@@ -5,10 +5,9 @@
 ### 👨‍💻 Identidad [Terminal Root]
 <div align="center"><img src="./assets/whoami.svg" width="95%" alt="Terminal Animation" /></div>
 <br/>
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" height="2" />
-<br/>
+
 <!-- PROJECTS -->
-<h2 align="center">🚀 Últimos Proyectos</h2>
+<h3 align="center">🚀 Últimos Proyectos</h3>
 <div align="center">
   <a href="https://github.com/PedroPereiraVaz/aws_ses_mail_tracking"><img src="https://raw.githubusercontent.com/PedroPereiraVaz/PedroPereiraVaz/main/assets/repo_aws.svg" alt="AWS Tracker" width="100%" /></a>
   <br/><br/>
@@ -17,10 +16,9 @@
   <a href="https://github.com/PedroPereiraVaz/dashboard_metricas_mail"><img src="https://raw.githubusercontent.com/PedroPereiraVaz/PedroPereiraVaz/main/assets/repo_dashboard.svg" alt="Dashboard" width="100%" /></a>
 </div>
 <br/>
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" height="2" />
-<br/>
+
 <!-- STACK -->
-<h2 align="center">⚡ Tech Stack</h2>
+<h3 align="center">⚡ Tech Stack</h3>
 <div align="center">
     <div style="display: inline-block; margin: 30px; vertical-align: top;">
         <h3 style="color: #94a3b8; font-family: sans-serif; margin-bottom: 10px;">Frontend</h3>
@@ -37,7 +35,7 @@
 </div>
 <br/>
 <!-- METRICS -->
-<h2 align="center">📊 Métricas de Impacto</h2>
+<h3 align="center">📊 Métricas de Impacto</h3>
 <div align="center">
     <!-- Row 1: Badges -->
     <img src="https://img.shields.io/badge/Repositorios-22%2B-0d1117?style=for-the-badge&logo=github&labelColor=30363d" height="40" />&nbsp;&nbsp;<img src="https://img.shields.io/badge/Antigüedad-4_Años-39F2D8?style=for-the-badge&logo=clock&labelColor=30363d&color=0d1117" height="40" />&nbsp;&nbsp;<img src="https://img.shields.io/github/followers/PedroPereiraVaz?style=for-the-badge&logo=github&label=Seguidores&color=0d1117&labelColor=30363d" height="40" />
