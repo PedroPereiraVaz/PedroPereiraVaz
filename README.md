@@ -16,7 +16,7 @@
 <br/>
 <br/>
 <!-- STACK -->
-<h3 align="center">⚡ Tech Stack</h2>
+<h3 align="center">⚡ Tech Stack</h3>
 <div align="center">
     <div style="display: inline-block; margin: 30px; vertical-align: top;">
         <h3 style="color: #94a3b8; font-family: sans-serif; margin-bottom: 10px;">Frontend</h3>
@@ -36,7 +36,7 @@
 <h3 align="center">📊 Métricas de Impacto</h3>
 <div align="center">
     <!-- Row 1: Badges -->
-    <img src="https://img.shields.io/badge/Repositorios-22%2B-0d1117?style=for-the-badge&logo=github&labelColor=30363d" height="40" />&nbsp;&nbsp;<img src="https://img.shields.io/badge/Antigüedad-4_Años-39F2D8?style=for-the-badge&logo=clock&labelColor=30363d&color=0d1117" height="40" />&nbsp;&nbsp;<img src="https://img.shields.io/github/followers/PedroPereiraVaz?style=for-the-badge&logo=github&label=Seguidores&color=0d1117&labelColor=30363d" height="40" />
+    <img src="https://img.shields.io/github/public-repos/PedroPereiraVaz?style=for-the-badge&logo=github&label=Repositorios&color=0d1117&labelColor=30363d" height="40" />&nbsp;&nbsp;<img src="https://img.shields.io/badge/Antigüedad-4_Años-39F2D8?style=for-the-badge&logo=clock&labelColor=30363d&color=0d1117" height="40" />&nbsp;&nbsp;<img src="https://img.shields.io/github/followers/PedroPereiraVaz?style=for-the-badge&logo=github&label=Seguidores&color=0d1117&labelColor=30363d" height="40" />
     <br/><br/>
     <!-- Row 2: Streak -->
     <img src="https://streak-stats.demolab.com?user=PedroPereiraVaz&theme=tokyonight&hide_border=true&card_width=800&hide_current_streak=true&hide_longest_streak=true" alt="Total Commits" />
