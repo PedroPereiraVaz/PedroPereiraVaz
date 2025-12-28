@@ -1,16 +1,16 @@
-<svg width="800" height="300" viewBox="0 0 800 300" xmlns="http://www.w3.org/2000/svg">
+<svg width="800" height="260" viewBox="0 0 800 260" xmlns="http://www.w3.org/2000/svg">
   <style>
-    .text { font-family: 'Consolas', 'Monaco', monospace; font-size: 14px; fill: #c9d1d9; }
+    .text { font-family: 'Consolas', 'Monaco', monospace; font-size: 15px; fill: #c9d1d9; }
     .green { fill: #79c0ff; } 
     .blue { fill: #39F2D8; } 
-    .yellow { fill: #e5c07b; }
     .gray { fill: #8b949e; }
+    .yellow { fill: #e5c07b; } 
     .cursor { animation: blink 1s step-end infinite; }
     
     @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
-    @keyframes type1 { from { width: 0; } to { width: 14ch; } }
+    @keyframes type1 { from { width: 0; } to { width: 22ch; } }
     
-    .line1 { overflow: hidden; white-space: nowrap; animation: type1 1s steps(14, end) 0.5s forwards; width: 0; display: inline-block;}
+    .line1 { overflow: hidden; white-space: nowrap; animation: type1 1s steps(22, end) 0.5s forwards; width: 0; display: inline-block;}
     
     .hidden { opacity: 0; animation: appear 0.1s linear forwards; }
     @keyframes appear { to { opacity: 1; } }
@@ -18,12 +18,10 @@
     .d2 { animation-delay: 2.0s; }
     .d3 { animation-delay: 2.5s; }
     .d4 { animation-delay: 3.0s; }
-    .d5 { animation-delay: 3.5s; }
-    .d6 { animation-delay: 4.5s; }
   </style>
 
   <!-- Window chrome -->
-  <rect x="0" y="0" width="800" height="300" rx="6" fill="#0d1117" stroke="#30363d"/>
+  <rect x="0" y="0" width="800" height="260" rx="6" fill="#0d1117" stroke="#30363d"/>
   <rect x="0" y="0" width="800" height="30" rx="6" fill="#161b22"/>
   <rect x="0" y="28" width="800" height="4" fill="#0d1117"/> 
   <circle cx="20" cy="15" r="6" fill="#ff5f56"/>
@@ -33,49 +31,35 @@
 
   <!-- Content -->
   <g transform="translate(20, 60)">
-    <!-- Line 1: Command -->
+    <!-- Line 1 -->
     <text y="0" class="text">
-      <tspan class="green">user@dev:~$</tspan> <tspan class="line1">neofetch</tspan>
+      <tspan class="green">user@dev:~$</tspan> <tspan class="line1">init profile --verbose</tspan>
     </text>
 
-    <!-- Line 2: Output Start -->
+    <!-- Line 2 -->
     <g class="hidden d1">
-      <text y="30" class="text">
-        <tspan class="blue">OS</tspan>: ....... Windows / Linux Subsystem
+      <text y="35" class="text">
+        <tspan class="blue">> [OK]</tspan> Role: <tspan class="yellow">Full Stack Odoo Dev</tspan>
       </text>
     </g>
 
-    <!-- Line 3: Role -->
+    <!-- Line 3 -->
     <g class="hidden d2">
-      <text y="55" class="text">
-        <tspan class="blue">Role</tspan>: ..... <tspan class="yellow">Odoo Developer & Full Stack</tspan>
+      <text y="70" class="text">
+        <tspan class="blue">> [OK]</tspan> Stack: Python, React, AWS
       </text>
     </g>
 
-     <!-- Line 4: Stack -->
+     <!-- Line 4 -->
     <g class="hidden d3">
-      <text y="80" class="text">
-        <tspan class="blue">Stack</tspan>: .... Python, React, AWS, Docker
-      </text>
-    </g>
-
-    <!-- Line 5: Location -->
-    <g class="hidden d4">
       <text y="105" class="text">
-        <tspan class="blue">Loc</tspan>: ...... Madrid, ES 
+        <tspan class="blue">> [OK]</tspan> Goal: Construir Software Escalable
       </text>
     </g>
 
-    <!-- Line 6: Interests -->
-    <g class="hidden d5">
-      <text y="130" class="text">
-        <tspan class="blue">Focus</tspan>: .... Scalable Arch & Open Source
-      </text>
-    </g>
-
-    <!-- Line 7: Prompt -->
-    <g class="hidden d6">
-      <text y="170" class="text">
+    <!-- Line 5 -->
+    <g class="hidden d4">
+      <text y="150" class="text">
         <tspan class="green">user@dev:~$</tspan> <tspan class="cursor">_</tspan>
       </text>
     </g>
