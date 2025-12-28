@@ -57,106 +57,103 @@
 
 <br/>
 
-<!-- Sección Proyectos Destacados -->
-<h2 align="center">🚀 Proyectos Destacados</h2>
+    <td width="45%" align="center" valign="middle">
+        <!-- Retro Monitor GIF or Tech GIF -->
+        <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="90%" style="border-radius: 10px; border: 2px solid #58a6ff;" />
+    </td>
 
+  </tr>
+</table>
+
+<br/><br/>
+
+<!-- Projects Header -->
+<h2 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Press+Start+2P&weight=400&size=20&pause=1000&color=39d353&center=true&vCenter=true&width=600&lines=FEATURED_PROJECTS" alt="Projects Header" />
+</h2>
+
+<!-- Projects Grid (Manual & Reliable) -->
 <table border="0" align="center" width="100%">
+  <!-- Project 1 & 2 -->
   <tr>
-    <td width="33%" align="center" valign="top">
-      <a href="https://github.com/PedroPereiraVaz/Portfolio-NeoBrutalism">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=PedroPereiraVaz&repo=Portfolio-NeoBrutalism&theme=tokyonight&bg_color=1a1b27&title_color=8A2BE2&icon_color=00FFFF&border_radius=10&border_color=8A2BE2" width="100%" />
-      </a>
-      <p align="center"><b>🎨 Portfolio Neo-Brutalist</b><br/>Diseño web audaz, animaciones CSS puro y estética premium.</p>
+    <td width="50%" valign="top">
+       <div style="border: 1px solid #30363d; border-radius: 6px; padding: 15px; background: #0d1117;">
+           <h3>📧 <a href="https://github.com/PedroPereiraVaz/aws_ses_mail_tracking" style="color: #58a6ff; text-decoration: none;">AWS SES Mail Tracking</a></h3>
+           <p>Advanced email tracking module for Odoo via AWS SES. Solves the black box issue of sent emails.</p>
+           <p>
+             <img src="https://img.shields.io/badge/Python-blue?style=flat&logo=python" />
+             <img src="https://img.shields.io/badge/Odoo-purple?style=flat&logo=odoo" />
+             <img src="https://img.shields.io/badge/AWS-orange?style=flat&logo=amazon-aws" />
+           </p>
+       </div>
     </td>
-    <td width="33%" align="center" valign="top">
-      <a href="https://github.com/PedroPereiraVaz/aws_ses_mail_tracking">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=PedroPereiraVaz&repo=aws_ses_mail_tracking&theme=tokyonight&bg_color=1a1b27&title_color=00FFFF&icon_color=FF00FF&border_radius=10&border_color=00FFFF" width="100%" />
-      </a>
-      <p align="center"><b>☁️ AWS & Data Tracking</b><br/>Monitoreo de emails y análisis de métricas en la nube.</p>
+    <td width="50%" valign="top">
+       <div style="border: 1px solid #30363d; border-radius: 6px; padding: 15px; background: #0d1117;">
+           <h3>🔔 <a href="https://github.com/PedroPereiraVaz/microsoft_outlook_notifier" style="color: #58a6ff; text-decoration: none;">Outlook Token Notifier</a></h3>
+           <p>Preventive alert system for OAuth2 token expiration. Keeps your connections alive.</p>
+           <p>
+             <img src="https://img.shields.io/badge/Python-blue?style=flat&logo=python" />
+             <img src="https://img.shields.io/badge/Azure-blue?style=flat&logo=microsoft-azure" />
+             <img src="https://img.shields.io/badge/Bot-red?style=flat&logo=robot-framework" />
+           </p>
+       </div>
     </td>
-    <td width="33%" align="center" valign="top">
-      <a href="https://github.com/PedroPereiraVaz/Outlook-Notifier">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=PedroPereiraVaz&repo=Outlook-Notifier&theme=tokyonight&bg_color=1a1b27&title_color=FF0055&icon_color=00FF00&border_radius=10&border_color=FF0055" width="100%" />
-      </a>
-      <p align="center"><b>🤖 Automation Bot</b><br/>Notificaciones inteligentes y automatización de flujos de trabajo.</p>
+  </tr>
+  <!-- Project 3 & 4 -->
+  <tr>
+    <td width="50%" valign="top">
+       <div style="border: 1px solid #30363d; border-radius: 6px; padding: 15px; background: #0d1117;">
+           <h3>📊 <a href="https://github.com/PedroPereiraVaz/dashboard_metricas_mail" style="color: #58a6ff; text-decoration: none;">Dashboard Métricas</a></h3>
+           <p>Full analytical dashboard for Email Marketing. Rankings, Drill-down & Insights.</p>
+           <p>
+              <img src="https://img.shields.io/badge/JS-yellow?style=flat&logo=javascript" />
+              <img src="https://img.shields.io/badge/Chart.js-pink?style=flat&logo=chartdotjs" />
+              <img src="https://img.shields.io/badge/Analytics-indigo?style=flat&logo=google-analytics" />
+           </p>
+       </div>
+    </td>
+    <td width="50%" valign="top">
+       <div style="border: 1px solid #30363d; border-radius: 6px; padding: 15px; background: #0d1117;">
+           <h3>🎨 <a href="https://github.com/PedroPereiraVaz/Portfolio-NeoBrutalism" style="color: #58a6ff; text-decoration: none;">Neo-Brutalist Portfolio</a></h3>
+           <p>Bold personal website. Pure CSS animations and premium aesthetic.</p>
+           <p>
+              <img src="https://img.shields.io/badge/HTML5-orange?style=flat&logo=html5" />
+              <img src="https://img.shields.io/badge/CSS3-blue?style=flat&logo=css3" />
+              <img src="https://img.shields.io/badge/Web-black?style=flat&logo=firefox-browser" />
+           </p>
+       </div>
     </td>
   </tr>
 </table>
 
 <br/>
 
-<!-- Stack Tecnológico -->
+<!-- Tech Arsenal -->
 <div align="center">
-  <h2>🛠️ Arsenal Tecnológico</h2>
-  
-  <table border="0" align="center">
-    <tr>
-      <td align="center" style="padding: 10px;">
-        <h4 style="color: #8A2BE2;">💻 Frontend & UI</h4>
-        <img src="https://skillicons.dev/icons?i=react,nextjs,js,ts,html,css,tailwind,figma&theme=dark" />
-      </td>
-      <td align="center" style="padding: 10px;">
-        <h4 style="color: #00FFFF;">🧪 Data & Backend</h4>
-        <img src="https://skillicons.dev/icons?i=python,nodejs,express,django,fastapi,pandas,numpy,pytorch&theme=dark" />
-      </td>
-      <td align="center" style="padding: 10px;">
-        <h4 style="color: #FF00FF;">☁️ Cloud & Tools</h4>
-        <img src="https://skillicons.dev/icons?i=aws,docker,git,github,linux,mysql,postgres,mongodb&theme=dark" />
-      </td>
-    </tr>
-  </table>
-</div>
+  <h2 align="center">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Press+Start+2P&weight=400&size=16&pause=1000&color=70d6ff&center=true&vCenter=true&width=500&lines=EQUIPMENT_LOADOUT" alt="Tech Header" />
+  </h2>
 
-<br/>
-
-<!-- GitHub Stats Analytics -->
-<h2 align="center">📈 GitHub Analytics</h2>
-
-<div align="center">
-  <!-- 3D Contrib Green (Generated by Action) -->
-  <img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D Contribution Graph" />
-  
+  <img src="https://skillicons.dev/icons?i=python,js,html,css,react,nextjs,nodejs,express&theme=dark" />
   <br/><br/>
-
-  <!-- Stats Grid (Generated by Action - stored in 0-profile-details) -->
-  <table align="center" border="0" width="100%">
-    <tr>
-      <td width="55%" align="center">
-        <!-- Using Streak Stats (Usually reliable, if it fails we can remove) -->
-        <a href="https://git.io/streak-stats">
-            <img src="https://streak-stats.demolab.com?user=PedroPereiraVaz&theme=tokyonight&hide_border=true&background=1a1b27&ring=8A2BE2&currStreakLabel=00FFFF" width="100%" alt="Streak" />
-        </a>
-      </td>
-      <td width="45%" align="center">
-        <!-- Summary Cards Generated Stats -->
-        <img src="./profile-summary-card-output/tokyonight/icons.svg" width="100%" alt="Stats Icons" />
-        <br/>
-        <img src="./profile-summary-card-output/tokyonight/productive-time.svg" width="100%" alt="Productive Time" />
-      </td>
-    </tr>
-  </table>
-  
-  <!-- More Summary Cards -->
-  <div align="center" style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
-     <img src="./profile-summary-card-output/tokyonight/languages.svg" height="150" alt="Languages" />
-     <img src="./profile-summary-card-output/tokyonight/score.svg" height="150" alt="Score" />
-  </div>
-
+  <img src="https://skillicons.dev/icons?i=aws,docker,linux,git,github,vscode,mysql,postgres,mongodb,figma&theme=dark" />
 </div>
 
 <br/>
 
-<!-- Cool Extra: Random Dev Quote -->
+<!-- Analytics (Reliable Metrics) -->
+<h2 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Press+Start+2P&weight=400&size=20&pause=1000&color=ff7b72&center=true&vCenter=true&width=600&lines=SYSTEM_METRICS" alt="Stats Header" />
+</h2>
+
 <div align="center">
-    <a href="https://github.com/aFly357/github-readme-quotes">
-        <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" />
-    </a>
+  <!-- Metrics: Full Dashboard (Header, Isocalendar, Languages, Achievements) -->
+  <img src="https://github.com/PedroPereiraVaz/PedroPereiraVaz/blob/main/github-metrics.svg" width="100%" alt="GitHub Metrics" />
 </div>
 
 <br/>
 
-<!-- Snake Animation: Light/Dark Mode Supported -->
-<h2 align="center">🐍 Contributions Snake</h2>
+<!-- Snake Animation -->
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github.com/PedroPereiraVaz/PedroPereiraVaz/blob/output/github-contribution-grid-snake-dark.svg">
@@ -167,7 +164,7 @@
 
 <br/><br/>
 
-<!-- Footer -->
+<!-- Retro Footer -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=00FFFF,8A2BE2&height=120&section=footer" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=000000,1a1b27&height=80&section=footer&text=SHUTTING%20DOWN...&fontSize=20&fontColor=ffffff&animation=fadeIn" width="100%" />
 </div>
