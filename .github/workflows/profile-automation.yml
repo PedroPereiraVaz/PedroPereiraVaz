@@ -27,45 +27,7 @@ jobs:
             assets/snake.svg
             assets/snake-dark.svg?palette=github-dark
 
-      # 2. Base Metrics (Commits, Years, Repos) - "The Activity Card"
-      - name: Generate Base Metrics
-        uses: lowlighter/metrics@latest
-        with:
-          filename: assets/metrics_base.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-          base: header, activity, community, repositories
-          config_display: large
-          config_timezone: Europe/Madrid
-
-      # 3. Repo Cards (Local)
-      - name: Repo AWS
-        uses: lowlighter/metrics@latest
-        with:
-          filename: assets/repo_aws.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-          base: repository
-          repo: aws_ses_mail_tracking
-          template: repository
-
-      - name: Repo Outlook
-        uses: lowlighter/metrics@latest
-        with:
-          filename: assets/repo_outlook.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-          base: repository
-          repo: microsoft_outlook_notifier
-          template: repository
-
-      - name: Repo Dashboard
-        uses: lowlighter/metrics@latest
-        with:
-          filename: assets/repo_dashboard.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-          base: repository
-          repo: dashboard_metricas_mail
-          template: repository
-
-      # 4. Commit
+      # 2. Commit
       - name: Commit Assets
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
