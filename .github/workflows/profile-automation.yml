@@ -1,0 +1,71 @@
+name: Profile Automation
+
+on:
+  # Schedule daily updates (00:00 UTC)
+  schedule:
+    - cron: "0 0 * * *"
+  # (Optional) Run workflow manually
+  workflow_dispatch:
+  # (Optional) Run on push to main branch
+  push:
+    branches:
+      - main
+
+jobs:
+  generate-assets:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # -------------------------------------------------------------------------
+      # 1. Snake Animation
+      # -------------------------------------------------------------------------
+      - name: Generate Snake Animation
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            assets/github-contribution-grid-snake.svg
+            assets/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      # -------------------------------------------------------------------------
+      # 2. General Metrics (Base Stats)
+      # -------------------------------------------------------------------------
+      - name: Generate General Metrics
+        uses: lowlighter/metrics@latest
+        with:
+          filename: assets/github-metrics.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          base: header, activity, community, repositories, metadata
+          config_timezone: Europe/Madrid
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+      # -------------------------------------------------------------------------
+      # 3. Language Metrics (Detailed)
+      # -------------------------------------------------------------------------
+      - name: Generate Language Metrics
+        uses: lowlighter/metrics@latest
+        with:
+          filename: assets/metrics_languages.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          base: ""
+          plugin_languages: yes
+          plugin_languages_ignored: >-
+            html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell,
+            gnuplot
+          plugin_languages_limit: 8
+          plugin_languages_details: bytes-size, percentage
+
+      # -------------------------------------------------------------------------
+      # 4. Commit & Push
+      # -------------------------------------------------------------------------
+      - name: Commit and Push Assets
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "🤖 Update profile assets (Snake + Metrics)"
+          file_pattern: assets/*
