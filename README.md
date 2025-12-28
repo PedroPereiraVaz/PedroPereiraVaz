@@ -2,28 +2,48 @@
 <div align="center"><img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=000000,1a1b27,000000&height=250&section=header&text=PEDRO%20PEREIRA&fontSize=70&fontAlignY=35&animation=fadeIn&fontColor=00FFFF&desc=FULL%20STACK%20DEVELOPER&descAlignY=65&descSize=16" width="100%" alt="Header" /><p><a href="https://linkedin.com/in/pedro-pereira-vaz" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="28" /></a>&nbsp;<a href="https://github.com/PedroPereiraVaz" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" height="28" /></a>&nbsp;<a href="mailto:tuemail@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="28" /></a></p></div>
 <br/>
 <!-- IDENTITY -->
+### 👨‍💻 Identidad [Terminal Root]
 <div align="center"><img src="./assets/whoami.svg" width="95%" alt="Terminal Animation" /></div>
 <br/>
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" height="2" />
 <br/>
 <!-- PROJECTS -->
 <h2 align="center">🚀 Últimos Proyectos</h2>
-<div align="center"><div style="display: inline-block; margin: 10px;"><a href="https://github.com/PedroPereiraVaz/aws_ses_mail_tracking"><img src="https://raw.githubusercontent.com/PedroPereiraVaz/PedroPereiraVaz/main/assets/repo_aws.svg" alt="AWS Tracker" /></a></div><div style="display: inline-block; margin: 10px;"><a href="https://github.com/PedroPereiraVaz/microsoft_outlook_notifier"><img src="https://raw.githubusercontent.com/PedroPereiraVaz/PedroPereiraVaz/main/assets/repo_outlook.svg" alt="Outlook Bot" /></a></div><div style="display: inline-block; margin: 10px;"><a href="https://github.com/PedroPereiraVaz/dashboard_metricas_mail"><img src="https://raw.githubusercontent.com/PedroPereiraVaz/PedroPereiraVaz/main/assets/repo_dashboard.svg" alt="Dashboard" /></a></div></div>
+<div align="center">
+  <a href="https://github.com/PedroPereiraVaz/aws_ses_mail_tracking"><img src="https://raw.githubusercontent.com/PedroPereiraVaz/PedroPereiraVaz/main/assets/repo_aws.svg" alt="AWS Tracker" width="100%" /></a>
+  <br/><br/>
+  <a href="https://github.com/PedroPereiraVaz/microsoft_outlook_notifier"><img src="https://raw.githubusercontent.com/PedroPereiraVaz/PedroPereiraVaz/main/assets/repo_outlook.svg" alt="Outlook Bot" width="100%" /></a>
+  <br/><br/>
+  <a href="https://github.com/PedroPereiraVaz/dashboard_metricas_mail"><img src="https://raw.githubusercontent.com/PedroPereiraVaz/PedroPereiraVaz/main/assets/repo_dashboard.svg" alt="Dashboard" width="100%" /></a>
+</div>
 <br/>
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" height="2" />
 <br/>
 <!-- STACK -->
 <h2 align="center">⚡ Tech Stack</h2>
-<div align="center"><div style="display: inline-block; margin: 20px; vertical-align: top;"><img src="https://skillicons.dev/icons?i=react,js,vite,html,css,astro,tailwind,figma&theme=dark" height="50" /><br/><strong style="color: #94a3b8; font-family: sans-serif; font-size: 14px; margin-top: 5px; display: block;">Frontend</strong></div><div style="display: inline-block; margin: 20px; vertical-align: top;"><img src="https://skillicons.dev/icons?i=python,nodejs,npm,express,django,fastapi,flask,nginx&theme=dark" height="50" /><br/><strong style="color: #94a3b8; font-family: sans-serif; font-size: 14px; margin-top: 5px; display: block;">Backend</strong></div><div style="display: inline-block; margin: 20px; vertical-align: top;"><img src="https://skillicons.dev/icons?i=aws,docker,git,github,vscode,mysql,postgres,mongodb&theme=dark" height="50" /><br/><strong style="color: #94a3b8; font-family: sans-serif; font-size: 14px; margin-top: 5px; display: block;">Infra</strong></div></div>
+<div align="center">
+    <div style="display: inline-block; margin: 30px; vertical-align: top;">
+        <h3 style="color: #94a3b8; font-family: sans-serif; margin-bottom: 10px;">Frontend</h3>
+        <img src="https://skillicons.dev/icons?i=react,js,vite,html,css,astro,tailwind,figma&theme=dark" height="55" />
+    </div>
+    <div style="display: inline-block; margin: 30px; vertical-align: top;">
+        <h3 style="color: #94a3b8; font-family: sans-serif; margin-bottom: 10px;">Backend</h3>
+        <img src="https://skillicons.dev/icons?i=python,nodejs,npm,express,django,fastapi,flask,nginx&theme=dark" height="55" />
+    </div>
+    <div style="display: inline-block; margin: 30px; vertical-align: top;">
+        <h3 style="color: #94a3b8; font-family: sans-serif; margin-bottom: 10px;">Infra</h3>
+        <img src="https://skillicons.dev/icons?i=aws,docker,git,github,vscode,mysql,postgres,mongodb&theme=dark" height="55" />
+    </div>
+</div>
 <br/>
 <!-- METRICS -->
 <h2 align="center">📊 Métricas de Impacto</h2>
 <div align="center">
     <!-- Row 1: Badges -->
-    <img src="https://img.shields.io/github/public-repos/PedroPereiraVaz?style=for-the-badge&logo=github&label=Repositorios&color=0d1117&labelColor=30363d" height="40" />&nbsp;&nbsp;<img src="https://img.shields.io/badge/Antigüedad-3%2B_Años-39F2D8?style=for-the-badge&logo=clock&labelColor=30363d&color=0d1117" height="40" />&nbsp;&nbsp;<img src="https://img.shields.io/github/followers/PedroPereiraVaz?style=for-the-badge&logo=github&label=Seguidores&color=0d1117&labelColor=30363d" height="40" />
+    <img src="https://img.shields.io/badge/Repositorios-22%2B-0d1117?style=for-the-badge&logo=github&labelColor=30363d" height="40" />&nbsp;&nbsp;<img src="https://img.shields.io/badge/Antigüedad-4_Años-39F2D8?style=for-the-badge&logo=clock&labelColor=30363d&color=0d1117" height="40" />&nbsp;&nbsp;<img src="https://img.shields.io/github/followers/PedroPereiraVaz?style=for-the-badge&logo=github&label=Seguidores&color=0d1117&labelColor=30363d" height="40" />
     <br/><br/>
     <!-- Row 2: Streak -->
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=PedroPereiraVaz&theme=tokyonight&hide_border=true&card_width=800&hide_current_streak=true&hide_longest_streak=true" alt="Total Commits" />
+    <img src="https://streak-stats.demolab.com?user=PedroPereiraVaz&theme=tokyonight&hide_border=true&card_width=800&hide_current_streak=true&hide_longest_streak=true" alt="Total Commits" />
 </div>
 <br/><br/>
 <!-- FOOTER -->
