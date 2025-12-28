@@ -1,6 +1,6 @@
-<svg width="480" height="220" viewBox="0 0 480 220" xmlns="http://www.w3.org/2000/svg">
+<svg width="800" height="260" viewBox="0 0 800 260" xmlns="http://www.w3.org/2000/svg">
   <style>
-    .text { font-family: 'Consolas', 'Monaco', monospace; font-size: 13px; fill: #c9d1d9; }
+    .text { font-family: 'Consolas', 'Monaco', monospace; font-size: 15px; fill: #c9d1d9; }
     .green { fill: #79c0ff; } 
     .blue { fill: #39F2D8; } 
     .gray { fill: #8b949e; }
@@ -23,16 +23,16 @@
   </style>
 
   <!-- Window chrome -->
-  <rect x="0" y="0" width="480" height="220" rx="6" fill="#0d1117" stroke="#30363d"/>
-  <rect x="0" y="0" width="480" height="26" rx="6" fill="#161b22"/>
-  <rect x="0" y="24" width="480" height="4" fill="#0d1117"/> 
-  <circle cx="20" cy="13" r="5" fill="#ff5f56"/>
-  <circle cx="40" cy="13" r="5" fill="#ffbd2e"/>
-  <circle cx="60" cy="13" r="5" fill="#27c93f"/>
-  <text x="240" y="17" text-anchor="middle" class="text gray" style="font-size: 11px">pedro -- -zsh</text>
+  <rect x="0" y="0" width="800" height="260" rx="6" fill="#0d1117" stroke="#30363d"/>
+  <rect x="0" y="0" width="800" height="30" rx="6" fill="#161b22"/>
+  <rect x="0" y="28" width="800" height="4" fill="#0d1117"/> 
+  <circle cx="20" cy="15" r="6" fill="#ff5f56"/>
+  <circle cx="40" cy="15" r="6" fill="#ffbd2e"/>
+  <circle cx="60" cy="15" r="6" fill="#27c93f"/>
+  <text x="400" y="20" text-anchor="middle" class="text gray" style="font-size: 12px">pedro -- -zsh</text>
 
   <!-- Content -->
-  <g transform="translate(15, 50)">
+  <g transform="translate(20, 60)">
     <!-- Line 1 -->
     <text y="0" class="text">
       <tspan class="green">user@dev:~$</tspan> <tspan class="line1">init profile --verbose</tspan>
@@ -40,28 +40,28 @@
 
     <!-- Line 2 -->
     <g class="hidden d1">
-      <text y="25" class="text">
+      <text y="35" class="text">
         <tspan class="blue">> [OK]</tspan> Role: Full Stack Odoo Dev
       </text>
     </g>
 
     <!-- Line 3 -->
     <g class="hidden d2">
-      <text y="50" class="text">
+      <text y="70" class="text">
         <tspan class="blue">> [OK]</tspan> Stack: Python, React, AWS
       </text>
     </g>
 
      <!-- Line 4 -->
     <g class="hidden d2">
-      <text y="75" class="text">
+      <text y="105" class="text">
         <tspan class="blue">> [OK]</tspan> Mission: Scalable Architecture
       </text>
     </g>
 
     <!-- Line 5 -->
     <g class="hidden d3">
-      <text y="115" class="text">
+      <text y="150" class="text">
         <tspan class="green">user@dev:~$</tspan> <tspan class="cursor">_</tspan>
       </text>
     </g>
