@@ -15,12 +15,10 @@ jobs:
       contents: write
 
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v3
 
-      # -------------------------------------------------------------------------
       # 1. Snake Animation
-      # -------------------------------------------------------------------------
       - name: Generate Snake
         uses: Platane/snk@v3
         with:
@@ -29,21 +27,18 @@ jobs:
             assets/snake.svg
             assets/snake-dark.svg?palette=github-dark
 
-      # -------------------------------------------------------------------------
-      # 2. General Stats (Overview: Commits, Years, Repos)
-      # -------------------------------------------------------------------------
-      - name: Generate Overview Metrics
+      # 2. Base Metrics (Commits, Years, Repos) - "The Activity Card"
+      - name: Generate Base Metrics
         uses: lowlighter/metrics@latest
         with:
-          filename: assets/metrics_overview.svg
+          filename: assets/metrics_base.svg
           token: ${{ secrets.GITHUB_TOKEN }}
-          base: header, activity, community, repositories, metadata
+          base: header, activity, community, repositories
+          config_display: large
           config_timezone: Europe/Madrid
 
-      # -------------------------------------------------------------------------
-      # 3. Repository Cards (Project 1: AWS SES)
-      # -------------------------------------------------------------------------
-      - name: Generate Repo Card AWS
+      # 3. Repo Cards (Local)
+      - name: Repo AWS
         uses: lowlighter/metrics@latest
         with:
           filename: assets/repo_aws.svg
@@ -51,12 +46,8 @@ jobs:
           base: repository
           repo: aws_ses_mail_tracking
           template: repository
-          plugin_lines: yes
 
-      # -------------------------------------------------------------------------
-      # 4. Repository Cards (Project 2: Outlook)
-      # -------------------------------------------------------------------------
-      - name: Generate Repo Card Outlook
+      - name: Repo Outlook
         uses: lowlighter/metrics@latest
         with:
           filename: assets/repo_outlook.svg
@@ -64,12 +55,8 @@ jobs:
           base: repository
           repo: microsoft_outlook_notifier
           template: repository
-          plugin_lines: yes
 
-      # -------------------------------------------------------------------------
-      # 5. Repository Cards (Project 3: Dashboard)
-      # -------------------------------------------------------------------------
-      - name: Generate Repo Card Dashboard
+      - name: Repo Dashboard
         uses: lowlighter/metrics@latest
         with:
           filename: assets/repo_dashboard.svg
@@ -77,13 +64,10 @@ jobs:
           base: repository
           repo: dashboard_metricas_mail
           template: repository
-          plugin_lines: yes
 
-      # -------------------------------------------------------------------------
-      # 6. Commit & Push
-      # -------------------------------------------------------------------------
-      - name: Commit and Push Assets
+      # 4. Commit
+      - name: Commit Assets
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "🤖 Update profile assets (Cards + Metrics)"
+          commit_message: "🤖 Update profile assets"
           file_pattern: assets/*
