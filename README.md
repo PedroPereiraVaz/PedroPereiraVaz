@@ -17,7 +17,6 @@
 <br/>
 <!-- STACK -->
 <h3 align="center">⚡ Tech Stack</h2>
-<br>
 <div align="center">
     <div style="display: inline-block; margin: 30px; vertical-align: top;">
         <h3 style="color: #94a3b8; font-family: sans-serif; margin-bottom: 10px;">Frontend</h3>
