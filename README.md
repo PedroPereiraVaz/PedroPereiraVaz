@@ -5,6 +5,7 @@
 
 <!-- PROJECTS -->
 <h3 align="center">🚀 Últimos Proyectos</h3>
+<br>
 <div align="center">
   <a href="https://github.com/PedroPereiraVaz/aws_ses_mail_tracking"><img src="https://raw.githubusercontent.com/PedroPereiraVaz/PedroPereiraVaz/main/assets/repo_aws.svg" alt="AWS Tracker" width="100%" /></a>
   <br/><br/>
@@ -13,10 +14,10 @@
   <a href="https://github.com/PedroPereiraVaz/dashboard_metricas_mail"><img src="https://raw.githubusercontent.com/PedroPereiraVaz/PedroPereiraVaz/main/assets/repo_dashboard.svg" alt="Dashboard" width="100%" /></a>
 </div>
 <br/>
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" height="2" />
 <br/>
 <!-- STACK -->
-<h2 align="center">⚡ Tech Stack</h2>
+<h3 align="center">⚡ Tech Stack</h2>
+<br>
 <div align="center">
     <div style="display: inline-block; margin: 30px; vertical-align: top;">
         <h3 style="color: #94a3b8; font-family: sans-serif; margin-bottom: 10px;">Frontend</h3>
