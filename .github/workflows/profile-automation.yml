@@ -1,12 +1,9 @@
 name: Profile Automation
 
 on:
-  # Schedule daily updates (00:00 UTC)
   schedule:
     - cron: "0 0 * * *"
-  # (Optional) Run workflow manually
   workflow_dispatch:
-  # (Optional) Run on push to main branch
   push:
     branches:
       - main
@@ -24,48 +21,69 @@ jobs:
       # -------------------------------------------------------------------------
       # 1. Snake Animation
       # -------------------------------------------------------------------------
-      - name: Generate Snake Animation
+      - name: Generate Snake
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            assets/github-contribution-grid-snake.svg
-            assets/github-contribution-grid-snake-dark.svg?palette=github-dark
+            assets/snake.svg
+            assets/snake-dark.svg?palette=github-dark
 
       # -------------------------------------------------------------------------
-      # 2. General Metrics (Base Stats)
+      # 2. General Stats (Overview: Commits, Years, Repos)
       # -------------------------------------------------------------------------
-      - name: Generate General Metrics
+      - name: Generate Overview Metrics
         uses: lowlighter/metrics@latest
         with:
-          filename: assets/github-metrics.svg
+          filename: assets/metrics_overview.svg
           token: ${{ secrets.GITHUB_TOKEN }}
           base: header, activity, community, repositories, metadata
           config_timezone: Europe/Madrid
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
 
       # -------------------------------------------------------------------------
-      # 3. Language Metrics (Detailed)
+      # 3. Repository Cards (Project 1: AWS SES)
       # -------------------------------------------------------------------------
-      - name: Generate Language Metrics
+      - name: Generate Repo Card AWS
         uses: lowlighter/metrics@latest
         with:
-          filename: assets/metrics_languages.svg
+          filename: assets/repo_aws.svg
           token: ${{ secrets.GITHUB_TOKEN }}
-          base: ""
-          plugin_languages: yes
-          plugin_languages_ignored: >-
-            html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell,
-            gnuplot
-          plugin_languages_limit: 8
-          plugin_languages_details: bytes-size, percentage
+          base: repository
+          repo: aws_ses_mail_tracking
+          template: repository
+          plugin_lines: yes
 
       # -------------------------------------------------------------------------
-      # 4. Commit & Push
+      # 4. Repository Cards (Project 2: Outlook)
+      # -------------------------------------------------------------------------
+      - name: Generate Repo Card Outlook
+        uses: lowlighter/metrics@latest
+        with:
+          filename: assets/repo_outlook.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          base: repository
+          repo: microsoft_outlook_notifier
+          template: repository
+          plugin_lines: yes
+
+      # -------------------------------------------------------------------------
+      # 5. Repository Cards (Project 3: Dashboard)
+      # -------------------------------------------------------------------------
+      - name: Generate Repo Card Dashboard
+        uses: lowlighter/metrics@latest
+        with:
+          filename: assets/repo_dashboard.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          base: repository
+          repo: dashboard_metricas_mail
+          template: repository
+          plugin_lines: yes
+
+      # -------------------------------------------------------------------------
+      # 6. Commit & Push
       # -------------------------------------------------------------------------
       - name: Commit and Push Assets
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "🤖 Update profile assets (Snake + Metrics)"
+          commit_message: "🤖 Update profile assets (Cards + Metrics)"
           file_pattern: assets/*
