@@ -1,8 +1,5 @@
-<!-- HEADER -->
 <div align="center"><img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=000000,1a1b27,000000&height=250&section=header&text=PEDRO%20PEREIRA&fontSize=70&fontAlignY=35&animation=fadeIn&fontColor=00FFFF&desc=FULL%20STACK%20DEVELOPER&descAlignY=65&descSize=16" width="100%" alt="Header" /><p><a href="https://linkedin.com/in/pedro-pereira-vaz" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="28" /></a>&nbsp;<a href="https://github.com/PedroPereiraVaz" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" height="28" /></a>&nbsp;<a href="mailto:tuemail@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="28" /></a></p></div>
 <br/>
-<!-- IDENTITY -->
-### 👨‍💻 Identidad [Terminal Root]
 <div align="center"><img src="./assets/whoami.svg" width="95%" alt="Terminal Animation" /></div>
 <br/>
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" height="2" />
@@ -18,7 +15,6 @@
 <br/>
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" height="2" />
 <br/>
-<!-- STACK -->
 <h2 align="center">⚡ Tech Stack</h2>
 <div align="center">
     <div style="display: inline-block; margin: 30px; vertical-align: top;">
