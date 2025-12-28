@@ -21,7 +21,7 @@
 ### 👨‍💻 Identidad [Terminal Root]
 
 <div align="center">
-   <img src="./assets/whoami.svg" width="95%" alt="Terminal Animation" />
+   <img src="https://raw.githubusercontent.com/PedroPereiraVaz/PedroPereiraVaz/main/assets/whoami.svg" width="95%" alt="Terminal Animation" />
 </div>
 
 <br/>
@@ -31,12 +31,12 @@
 
 <br/>
 
-<!-- Projects: Compact HTML Block -->
+<!-- Projects: Absolute URLs for visibility -->
 <h2 align="center">🚀 Proyectos Destacados</h2>
 <div align="center">
-  <a href="https://github.com/PedroPereiraVaz/aws_ses_mail_tracking"><img src="./assets/repo_aws.svg" width="30%" alt="AWS Tracker" /></a>
-  <a href="https://github.com/PedroPereiraVaz/microsoft_outlook_notifier"><img src="./assets/repo_outlook.svg" width="30%" alt="Outlook Bot" /></a>
-  <a href="https://github.com/PedroPereiraVaz/dashboard_metricas_mail"><img src="./assets/repo_dashboard.svg" width="30%" alt="Dashboard" /></a>
+  <a href="https://github.com/PedroPereiraVaz/aws_ses_mail_tracking"><img src="https://raw.githubusercontent.com/PedroPereiraVaz/PedroPereiraVaz/main/assets/repo_aws.svg" width="30%" alt="AWS Tracker" /></a>
+  <a href="https://github.com/PedroPereiraVaz/microsoft_outlook_notifier"><img src="https://raw.githubusercontent.com/PedroPereiraVaz/PedroPereiraVaz/main/assets/repo_outlook.svg" width="30%" alt="Outlook Bot" /></a>
+  <a href="https://github.com/PedroPereiraVaz/dashboard_metricas_mail"><img src="https://raw.githubusercontent.com/PedroPereiraVaz/PedroPereiraVaz/main/assets/repo_dashboard.svg" width="30%" alt="Dashboard" /></a>
 </div>
 
 <br/>
@@ -68,17 +68,22 @@
 
 <br/>
 
-<!-- Metrics: Clean Layout (Removed extra breaks) -->
+<!-- Metrics: Custom Cyberpunk Grid -->
 <h2 align="center">📊 Métricas de Impacto</h2>
 <div align="center">
-    <img src="https://img.shields.io/badge/Repositorios-15-39F2D8?style=for-the-badge&logo=github&labelColor=232323&color=0d1117" height="40" />&nbsp;&nbsp;<img src="https://img.shields.io/badge/Antigüedad-3%2B_Años-39F2D8?style=for-the-badge&logo=clock&labelColor=232323&color=0d1117" height="40" />
-    <br/><br/>
-    <img src="./assets/metrics_base.svg" width="90%" alt="Activity Metrics" />
-    <br/>
+    <img src="https://raw.githubusercontent.com/PedroPereiraVaz/PedroPereiraVaz/main/assets/metric_repos.svg" width="23%" />
+    <img src="https://raw.githubusercontent.com/PedroPereiraVaz/PedroPereiraVaz/main/assets/metric_time.svg" width="23%" />
+    <img src="https://raw.githubusercontent.com/PedroPereiraVaz/PedroPereiraVaz/main/assets/metric_commits.svg" width="23%" />
+    <img src="https://raw.githubusercontent.com/PedroPereiraVaz/PedroPereiraVaz/main/assets/metric_year.svg" width="23%" />
+</div>
+
+<br/>
+
+<div align="center">
     <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="./assets/snake-dark.svg">
-        <source media="(prefers-color-scheme: light)" srcset="./assets/snake.svg">
-        <img alt="Activity Snake" src="./assets/snake.svg" width="100%">
+        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/PedroPereiraVaz/PedroPereiraVaz/main/assets/snake-dark.svg">
+        <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/PedroPereiraVaz/PedroPereiraVaz/main/assets/snake.svg">
+        <img alt="Activity Snake" src="https://raw.githubusercontent.com/PedroPereiraVaz/PedroPereiraVaz/main/assets/snake.svg" width="100%">
     </picture>
 </div>
 
