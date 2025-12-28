@@ -43,17 +43,11 @@
 
 ### 👨‍💻 Who Am I [Terminal Mode]
 
-```console
-user@pedro-pc:~$ ./whoami.sh --verbose
+### 👨‍💻 Who Am I
 
-> ROLE:     Full Stack Developer & Odoo Specialist
-> STACK:    Python, JavaScript, AWS, Odoo, React, Docker
-> MISSION:  Building scalable solutions & optimizing workflows.
-> STATUS:   Coding the future, one commit at a time.
-
-# "Simplicity is the ultimate sophistication."
-user@pedro-pc:~$ _
-```
+<div align="center">
+  <img src="./assets/whoami.svg" width="100%" alt="Who Am I Terminal" />
+</div>
 
 <br/><br/>
 
