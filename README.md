@@ -7,7 +7,6 @@
 <br/>
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" height="2" />
 <br/>
-<!-- PROJECTS -->
 <h2 align="center">🚀 Últimos Proyectos</h2>
 <div align="center">
   <a href="https://github.com/PedroPereiraVaz/aws_ses_mail_tracking"><img src="https://raw.githubusercontent.com/PedroPereiraVaz/PedroPereiraVaz/main/assets/repo_aws.svg" alt="AWS Tracker" width="100%" /></a>
