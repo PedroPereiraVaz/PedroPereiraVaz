@@ -50,5 +50,10 @@
     <img src="https://streak-stats.demolab.com?user=PedroPereiraVaz&theme=tokyonight&hide_border=true&card_width=800&hide_current_streak=true&hide_longest_streak=true" alt="Total Commits" />
 </div>
 <br/><br/>
+<!-- SNAKE -->
+<div align="center">
+  <img src="./assets/snake-dark.svg" alt="Snake Animation" width="100%" />
+</div>
+<br/>
 <!-- FOOTER -->
 <div align="center"><img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0d1117,000000&height=100&section=footer&text=Code.%20Build.%20Deploy.&fontSize=20&fontColor=39F2D8&animation=fadeIn" width="100%" /></div>
