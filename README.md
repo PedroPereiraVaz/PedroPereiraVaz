@@ -36,9 +36,9 @@
 <h3 align="center">📊 Métricas de Impacto</h3>
 <div align="center">
     <!-- Row 1: Badges -->
+    <img src="https://img.shields.io/github/stars/PedroPereiraVaz?style=flat&logo=github&label=Estrellas&color=92f2" height="40" />&nbsp;&nbsp;
     <img src="https://komarev.com/ghpvc/?username=PedroPereiraVaz" height="40" />&nbsp;&nbsp;
-    <img src="https://img.shields.io/badge/Antigüedad-4_Años-39F2D8?style=for-the-badge&logo=clock&labelColor=30363d&color=0d1117" height="40" />&nbsp;&nbsp;
-    <img src="https://img.shields.io/github/followers/PedroPereiraVaz?style=for-the-badge&logo=github&label=Seguidores&color=0d1117&labelColor=30363d" height="40" />
+    <img src="https://img.shields.io/github/followers/PedroPereiraVaz?style=flat&logo=github&label=Seguidores&color=e04a4a" height="40" />
     <br/><br/>
     <!-- Row 2: Streak -->
     <img src="https://streak-stats.demolab.com?user=PedroPereiraVaz&theme=tokyonight&hide_border=true&card_width=800&hide_current_streak=true&hide_longest_streak=true" alt="Total Commits" />
