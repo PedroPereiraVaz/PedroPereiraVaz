@@ -5,18 +5,15 @@
 
 <!-- PROJECTS -->
 <h3 align="center">🚀 Últimos Proyectos</h3>
-<br>
 <div align="center">
-  <a href="https://github.com/PedroPereiraVaz/aws_ses_mail_tracking"><img src="https://raw.githubusercontent.com/PedroPereiraVaz/PedroPereiraVaz/main/assets/repo_aws.svg" alt="AWS Tracker" width="100%" /></a>
-  <br/><br/>
-  <a href="https://github.com/PedroPereiraVaz/microsoft_outlook_notifier"><img src="https://raw.githubusercontent.com/PedroPereiraVaz/PedroPereiraVaz/main/assets/repo_outlook.svg" alt="Outlook Bot" width="100%" /></a>
-  <br/><br/>
-  <a href="https://github.com/PedroPereiraVaz/dashboard_metricas_mail"><img src="https://raw.githubusercontent.com/PedroPereiraVaz/PedroPereiraVaz/main/assets/repo_dashboard.svg" alt="Dashboard" width="100%" /></a>
+  <a href="https://github.com/PedroPereiraVaz/aws_ses_mail_tracking"><img src="https://raw.githubusercontent.com/PedroPereiraVaz/PedroPereiraVaz/main/assets/repo_aws.svg" alt="AWS Tracker"/></a>
+  <a href="https://github.com/PedroPereiraVaz/microsoft_outlook_notifier"><img src="https://raw.githubusercontent.com/PedroPereiraVaz/PedroPereiraVaz/main/assets/repo_outlook.svg" alt="Outlook Bot"/></a>
+  <a href="https://github.com/PedroPereiraVaz/dashboard_metricas_mail"><img src="https://raw.githubusercontent.com/PedroPereiraVaz/PedroPereiraVaz/main/assets/repo_dashboard.svg" alt="Dashboard"/></a>
 </div>
 <br/>
 <br/>
 <!-- STACK -->
-<h3 align="center">⚡ Tech Stack</h3>
+<h3 align="center">⚡ Stack</h3>
 <div align="center">
     <div style="display: inline-block; margin: 30px; vertical-align: top;">
         <h3 style="color: #94a3b8; font-family: sans-serif; margin-bottom: 10px;">Frontend</h3>
@@ -33,7 +30,7 @@
 </div>
 <br/>
 <!-- METRICS -->
-<h3 align="center">📊 Métricas de Impacto</h3>
+<h3 align="center">📊 Métricas</h3>
 <div align="center">
     <!-- Row 1: Badges -->
     <img src="https://img.shields.io/github/stars/PedroPereiraVaz?style=flat&logo=github&label=Estrellas&color=92f2" height="40" />&nbsp;&nbsp;
