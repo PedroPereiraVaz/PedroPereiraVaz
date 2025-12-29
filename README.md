@@ -49,7 +49,6 @@
     <!-- Row 2: Streak -->
     <img src="./assets/streak_stats.svg" alt="Total Commits" />
 </div>
-<br/><br/>
 <!-- SNAKE -->
 <div align="center">
   <img src="./assets/snake-dark.svg" alt="Snake Animation" width="100%" />
