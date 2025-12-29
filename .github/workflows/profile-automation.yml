@@ -27,7 +27,12 @@ jobs:
             assets/snake.svg
             assets/snake-dark.svg?palette=github-dark
 
-      # 2. Commit
+      # 2. Download Streak Stats (Cache)
+      - name: Download Streak Stats
+        run: |
+          curl -o assets/streak_stats.svg "https://streak-stats.demolab.com?user=${{ github.repository_owner }}&theme=tokyonight&hide_border=true&card_width=500&hide_current_streak=true&hide_longest_streak=true"
+
+      # 3. Commit
       - name: Commit Assets
         uses: stefanzweifel/git-auto-commit-action@v5
         with:

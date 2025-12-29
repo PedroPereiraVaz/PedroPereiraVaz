@@ -47,7 +47,7 @@
     <img src="https://img.shields.io/github/followers/PedroPereiraVaz?style=flat&logo=github&label=Seguidores&color=e04a4a" height="40" />
     <br/><br/>
     <!-- Row 2: Streak -->
-    <img src="https://streak-stats.demolab.com?user=PedroPereiraVaz&theme=tokyonight&hide_border=true&card_width=800&hide_current_streak=true&hide_longest_streak=true" alt="Total Commits" />
+    <img src="./assets/streak_stats.svg" alt="Total Commits" />
 </div>
 <br/><br/>
 <!-- SNAKE -->
