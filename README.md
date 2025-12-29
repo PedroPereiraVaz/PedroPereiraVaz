@@ -6,9 +6,15 @@
 <!-- PROJECTS -->
 <h3 align="center">🚀 Últimos Proyectos</h3>
 <div align="center">
-  <a href="https://github.com/PedroPereiraVaz/aws_ses_mail_tracking"><img src="https://raw.githubusercontent.com/PedroPereiraVaz/PedroPereiraVaz/main/assets/repo_aws.svg" alt="AWS Tracker"/></a>
-  <a href="https://github.com/PedroPereiraVaz/microsoft_outlook_notifier"><img src="https://raw.githubusercontent.com/PedroPereiraVaz/PedroPereiraVaz/main/assets/repo_outlook.svg" alt="Outlook Bot"/></a>
-  <a href="https://github.com/PedroPereiraVaz/dashboard_metricas_mail"><img src="https://raw.githubusercontent.com/PedroPereiraVaz/PedroPereiraVaz/main/assets/repo_dashboard.svg" alt="Dashboard"/></a>
+    <div style="display: inline-block; margin: 10px; vertical-align: top;">
+        <a href="https://github.com/PedroPereiraVaz/aws_ses_mail_tracking"><img src="https://raw.githubusercontent.com/PedroPereiraVaz/PedroPereiraVaz/main/assets/repo_aws.svg" alt="AWS Tracker"/></a>
+    </div>
+    <div style="display: inline-block; margin: 10px; vertical-align: top;">
+        <a href="https://github.com/PedroPereiraVaz/microsoft_outlook_notifier"><img src="https://raw.githubusercontent.com/PedroPereiraVaz/PedroPereiraVaz/main/assets/repo_outlook.svg" alt="Outlook Bot"/></a>
+    </div>
+    <div style="display: inline-block; margin: 10px; vertical-align: top;">
+        <a href="https://github.com/PedroPereiraVaz/dashboard_metricas_mail"><img src="https://raw.githubusercontent.com/PedroPereiraVaz/PedroPereiraVaz/main/assets/repo_dashboard.svg" alt="Dashboard"/></a>
+    </div>
 </div>
 <br/>
 <br/>
